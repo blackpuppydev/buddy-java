@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="315dp"
+        android:layout_height="144dp"
+        android:orientation="vertical">
+
+        <!--     <ImageView
+            android:id="@+id/videoPlayer"
+            android:layout_width="646dp"
+            android:layout_height="309dp" /> -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/kanitlightitalic"
+            android:text="Song is playing ..."
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>
